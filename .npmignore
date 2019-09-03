@@ -1,0 +1,16 @@
+commonjs-everywhere-*.tgz
+node
+node/*
+!node/lib
+src
+test
+.gitmodules
+Makefile
+.gitignore
+.gitmodules
+.npmignore
+.changelog.sh
+Makefile
+test-setup.coffee
+.npmignore
+test

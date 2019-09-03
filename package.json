@@ -1,0 +1,68 @@
+{
+  "name": "commonjs-justhere",
+  "version": "0.9.7",
+  "description": "CommonJS browser bundler with aliasing, extensibility, and source maps from the minified JS bundle",
+  "homepage": "https://github.com/michaelficarra/commonjs-everywhere",
+  "keywords": [
+    "CommonJS",
+    "CommonJS Everywhere",
+    "browser",
+    "build",
+    "bundle",
+    "cjsify",
+    "browserify",
+    "dependency resolution"
+  ],
+  "author": {
+    "name": "Michael Ficarra",
+    "email": "git@michael.ficarra.me"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/michaelficarra/commonjs-everywhere.git"
+  },
+  "bugs": "https://github.com/michaelficarra/commonjs-everywhere/issues",
+  "main": "lib/module",
+  "directories": {
+    "bin": "bin",
+    "lib": "lib",
+    "test": "test"
+  },
+  "license": "BSD3",
+  "dependencies": {
+    "Base64": "^1.0.2",
+    "buffer-browserify": "^0.2.5",
+    "coffeescript": "^2.4.1",
+    "constants-browserify": "^1.0.0",
+    "crypto-browserify": "^3.12.0",
+    "escodegen": "1.2.x",
+    "esmangle": "~1.0.0",
+    "esprima": "^4.0.1",
+    "estraverse": "^4.3.0",
+    "events": "^3.0.0",
+    "http-browserify": "^1.7.0",
+    "md5": "^2.2.1",
+    "mktemp": "0.3.x",
+    "nopt": "~2.1.2",
+    "punycode": "*",
+    "querystring": "*",
+    "resolve": "^1.12.0",
+    "vm-browserify": "^1.1.0",
+    "zlib-browserify": "0.0.3"
+  },
+  "devDependencies": {
+    "coffee-script-redux": "2.0.0-beta8",
+    "mocha": "~1.14.0",
+    "scopedfs": "~0.1.0",
+    "semver": "~2.2.1"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "licenses": [
+    {
+      "type": "BSD",
+      "url": "https://github.com/michaelficarra/commonjs-everywhere/blob/master/LICENSE"
+    }
+  ]
+}
