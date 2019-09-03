@@ -8,7 +8,7 @@ CommonJS (node module) browser bundler with source maps from the minified JS bun
 
 ## Install
 
-    npm install -g commonjs-everywhere
+    npm install -g commonjs-justhere
 
 ## Usage
 
@@ -101,7 +101,7 @@ Since the above command specifies `components` as the root directory for unquali
 ### Node Module Example
 
 ```coffee
-jsAst = (require 'commonjs-everywhere').cjsify 'src/entry-file.coffee', __dirname,
+jsAst = (require 'commonjs-justhere').cjsify 'src/entry-file.coffee', __dirname,
   export: 'MyLibrary'
   aliases:
     '/src/module-that-only-works-in-node.coffee': '/src/module-that-does-the-same-thing-in-the-browser.coffee'

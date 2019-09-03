@@ -7,7 +7,7 @@ CommonJS（节点模块）浏览器绑定器，具有从缩小的JS绑定到原�
 
 ## 安装
 
-    npm install -g commonjs-everywhere
+    npm install -g commonjs-justhere
 
 ## 使用
 
@@ -99,7 +99,7 @@ cjsify -o public/javascripts/app.js -x App.Todos -r components components/todos/
 ### Node 模块示例
 
 ```coffee
-jsAst = (require 'commonjs-everywhere').cjsify 'src/entry-file.coffee', __dirname,
+jsAst = (require 'commonjs-justhere').cjsify 'src/entry-file.coffee', __dirname,
   export: 'MyLibrary'
   aliases:
     '/src/module-that-only-works-in-node.coffee': '/src/module-that-does-the-same-thing-in-the-browser.coffee'
