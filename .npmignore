@@ -14,3 +14,5 @@ Makefile
 test-setup.coffee
 .npmignore
 test
+*.yml
+*.sh
