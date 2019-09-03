@@ -2,7 +2,7 @@
   "name": "commonjs-justhere",
   "version": "0.9.7",
   "description": "CommonJS browser bundler with aliasing, extensibility, and source maps from the minified JS bundle",
-  "homepage": "https://github.com/michaelficarra/commonjs-everywhere",
+  "homepage": "https://github.com/yunxu1019/commonjs-justhere",
   "keywords": [
     "CommonJS",
     "CommonJS Everywhere",
@@ -19,9 +19,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/michaelficarra/commonjs-everywhere.git"
+    "url": "git://github.com/yunxu1019/commonjs-justhere.git"
   },
-  "bugs": "https://github.com/michaelficarra/commonjs-everywhere/issues",
+  "bugs": "https://github.com/yunxu1019/commonjs-justhere/issues",
   "main": "lib/module",
   "directories": {
     "bin": "bin",
@@ -53,8 +53,8 @@
   "devDependencies": {
     "coffee-script-redux": "2.0.0-beta8",
     "mocha": "~1.14.0",
-    "scopedfs": "~0.1.0",
-    "semver": "~2.2.1"
+    "scopedfs": "^0.1.0",
+    "semver": "^6.3.0"
   },
   "scripts": {
     "test": "make test"
@@ -62,7 +62,7 @@
   "licenses": [
     {
       "type": "BSD",
-      "url": "https://github.com/michaelficarra/commonjs-everywhere/blob/master/LICENSE"
+      "url": "https://github.com/yunxu1019/commonjs-justhere/blob/master/LICENSE"
     }
   ]
 }
