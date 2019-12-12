@@ -1,6 +1,6 @@
 {
   "name": "commonjs-justhere",
-  "version": "0.9.7d",
+  "version": "1.0.0",
   "description": "CommonJS browser bundler with aliasing, extensibility, and source maps from the minified JS bundle",
   "homepage": "https://github.com/yunxu1019/commonjs-justhere",
   "keywords": [
@@ -10,6 +10,7 @@
     "browser",
     "build",
     "bundle",
+    "typesript",
     "cjsify",
     "browserify",
     "dependency resolution"

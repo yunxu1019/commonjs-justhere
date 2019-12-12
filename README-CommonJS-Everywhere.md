@@ -1,6 +1,6 @@
 # CommonJS Justhere
 The original version has not been updated for several years. Some old dependencies have been updated here to solve the problem that the original version can't be installed.
-更新了原 `CommonJS Everywhere` 中的一些陈旧的依赖项。[中文版](./readme.md)
+更新了原 `CommonJS Everywhere` 中的一些陈旧的依赖项，添加了对typescript的支持。[中文版](./README.md)
 
 # CommonJS Everywhere
 

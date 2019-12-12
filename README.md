@@ -1,5 +1,6 @@
 # CommonJS Justhere
-更新了原 `CommonJS Everywhere` 中的一些陈旧的依赖项。[English Version](./README-CommonJS-Everywhere.md)
+更新了原 `CommonJS Everywhere` 中的一些陈旧的依赖项，添加了对typescript的支持。[English Version](./README-CommonJS-Everywhere.md)
+
 
 # CommonJS Everywhere
 
