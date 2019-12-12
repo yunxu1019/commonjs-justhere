@@ -1,4 +1,4 @@
-commonjs-everywhere-*.tgz
+*.tgz
 node
 node/*
 !node/lib
